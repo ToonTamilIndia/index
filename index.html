@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .category {
+            flex: 0 1 calc(30% - 20px);
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .category:hover {
+            transform: scale(1.05);
+        }
+
+        .category a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .category a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Index Page</h1>
+    </header>
+
+    <main>
+        <div class="category">
+            <h2><a href="https://blog.toontamilindia.in">BLOG</a></h2>
+            <p>Rediscover the magic with ToonTamilIndia's archived content! In this unique subcategory, we proudly present the original content that laid for our animated journey/p>
+        </div>
+
+        <div class="category">
+            <h2><a href="https://anime.toontamilindia.in">Anime - jp/en</a></h2>
+            <p>Extensive library of subbed and dubbed anime content. Whether you prefer the authentic Japanese experience with subtitles, the convenience of English dubbing!</p>
+        </div>
+
+        <div class="category">
+            <h2><a href="https://dub.toontamilindia.in">Anime - regional language (testing)</a></h2>
+            <p>Testing/fetching anime in Tamil/Telugu/Hindi dubs </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ToonTamilIndia</p>
+    </footer>
+
+</body>
+</html>
+
